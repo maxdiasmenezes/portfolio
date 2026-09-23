@@ -98,7 +98,7 @@ EXPERIENCE = [
 ]
 
 SKILLS = {
-    "Robotics & engineering": ["PyBullet", "Inverse kinematics", "3D simulation", "MATLAB", "AutoCAD"],
+    "Robotics & engineering": ["PyBullet", "Inverse kinematics", "3D simulation", "MATLAB", "SOLIDWORKS", "Siemens NX"],
     "Code & systems": ["Python", "C", "JavaScript", "SQL", "Node.js", "HTML / CSS"],
     "Ways of working": ["Research", "Agile development", "Prototyping", "Data analysis"],
 }
