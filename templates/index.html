@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en" data-motion="off">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071326">
+  <meta name="description" content="$name — $degree at Purdue. Explore surgical robotics research, automation, and applied AI projects.">
+  <title>$name — Robotics &amp; Applied AI</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23071326'/%3E%3Cpath d='M13 45V19h7l12 16 12-16h7v26h-8V32L32 47 21 32v13z' fill='%23d6fb70'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="$name — home"><span class="brand-mark" aria-hidden="true">m<span>m</span></span><span>$brand_name</span></a>
+    <nav class="desktop-nav" aria-label="Main navigation"><a href="#work">Selected work <span>01</span></a><a href="#experience">Experience <span>02</span></a><a href="#about">About <span>03</span></a></nav>
+    <a class="nav-contact" href="#contact">Let's connect <span aria-hidden="true">↗</span></a>
+    <button class="mobile-menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+    <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation" hidden><a href="#work">Selected work</a><a href="#experience">Experience</a><a href="#about">About</a><a href="#contact">Let's connect ↗</a></nav>
+  </header>
+  <main id="main">
+    <section id="home" class="hero" aria-labelledby="hero-title">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <div class="eyebrow hero-eyebrow"><span class="small-cross" aria-hidden="true">+</span> ENGINEERING THE NEXT POSSIBILITY</div>
+        <h1 id="hero-title">$headline_top<br><span class="move-word">$headline_bottom<svg class="word-underline" viewBox="0 0 350 14" fill="none" aria-hidden="true"><path d="M2 10Q173-4 348 9" stroke="currentColor" stroke-width="3"/></svg></span></h1>
+        <p class="hero-intro">$intro</p>
+        <div class="hero-actions"><a class="button button-lime" href="#work">Explore my work <span aria-hidden="true">↗</span></a><a class="quiet-link" href="#about">A little about me <span aria-hidden="true">↘</span></a></div>
+      </div>
+      <div class="robot-stage" aria-label="Illustrative industrial robot arm with animated engineering overlays">
+        <div class="stage-orbit orbit-one" aria-hidden="true"></div><div class="stage-orbit orbit-two" aria-hidden="true"></div>
+        <div class="stage-axis axis-horizontal" aria-hidden="true"></div><div class="stage-axis axis-vertical" aria-hidden="true"></div>
+        <div class="robot-image-wrap"><img class="robot-image" src="assets/robot-arm.webp" width="1254" height="1254" alt="Silver articulated robot arm, lit in blue — a visual concept for the portfolio" fetchpriority="high"></div>
+        <div class="stage-label stage-label-top"><span class="target-symbol" aria-hidden="true">⊕</span><span>HUMAN CURIOSITY.<br>MACHINE PRECISION.</span></div>
+        <div class="stage-label stage-label-bottom"><span class="stage-dot" aria-hidden="true"></span> ROBOTICS / SYSTEMS / MOTION</div>
+        <span class="axis-label axis-x" aria-hidden="true">X</span><span class="axis-label axis-y" aria-hidden="true">Y</span>
+        <div class="scan-line" aria-hidden="true"></div>
+        <div class="stage-corner corner-tl" aria-hidden="true"></div><div class="stage-corner corner-br" aria-hidden="true"></div>
+      </div>
+      <div class="hero-bottom"><div class="school-label"><span class="mini-mark" aria-hidden="true">P</span><span>$university<small>$degree</small></span></div><div class="hero-location">$location<span>São Paulo → Purdue</span></div><a class="scroll-cue" href="#work" aria-label="Scroll to selected work"><span>SCROLL TO EXPLORE</span><span class="scroll-arrow" aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <div class="discipline-strip" aria-hidden="true"><div><span>ROBOTICS</span><i>✳</i><span>SIMULATION</span><i>✳</i><span>APPLIED AI</span><i>✳</i><span>HUMAN CURIOSITY</span><i>✳</i><span>ROBOTICS</span><i>✳</i><span>SIMULATION</span><i>✳</i><span>APPLIED AI</span><i>✳</i><span>HUMAN CURIOSITY</span><i>✳</i></div></div>
+
+    <section id="work" class="section work-section" aria-labelledby="work-title">
+      <div class="section-top reveal"><span class="eyebrow"><span class="section-index">01 /</span> SELECTED WORK</span><span class="section-aside">A few things I've put my curiosity into.</span></div>
+      <h2 id="work-title" class="section-title reveal">From a question.<br><span>To something real.</span></h2>
+      <article class="featured-project reveal">
+        <div class="workspace-visual">
+          <div class="workspace-top"><span>ROBOT WORKSPACE</span><span>STUDY 001</span></div>
+          <canvas id="workspace-canvas" aria-label="Illustrative animated grid of candidate base positions in a robot workspace"></canvas>
+          <div class="workspace-legend"><span><i></i> CANDIDATE BASE POSE</span><span>PYTHON / PYBULLET</span></div>
+          <p class="diagram-note">Conceptual illustration · not experimental results</p>
+        </div>
+        <div class="featured-copy"><div class="eyebrow"><span class="featured-label">FEATURED RESEARCH</span><span>2026</span></div><h3>$feature_title</h3><p>$feature_description</p>
+          <div class="research-stats"><div><strong>$base_poses</strong><span>candidate base poses</span></div><div><strong>$scenarios</strong><span>surgical scenarios</span></div></div>
+          <div class="tags">$feature_tags</div>$feature_button
+        </div>
+      </article>
+      <div class="project-grid">$project_cards</div>
+    </section>
+
+    <section id="experience" class="section experience-section" aria-labelledby="experience-title">
+      <div class="section-top reveal"><span class="eyebrow"><span class="section-index">02 /</span> THE JOURNEY</span><span class="section-aside">Learning by building. Building by learning.</span></div>
+      <div class="experience-layout"><div class="experience-heading reveal"><h2 id="experience-title" class="section-title">Always<br>in <em>motion.</em></h2><p>Research, industry, and a venture of my own. Different settings. The same drive to figure things out.</p><a class="quiet-link" href="$linkedin" target="_blank" rel="noopener noreferrer">More on LinkedIn <span aria-hidden="true">↗</span></a></div><div class="timeline">$experience_rows</div></div>
+    </section>
+
+    <section id="about" class="section about-section" aria-labelledby="about-title">
+      <div class="section-top reveal"><span class="eyebrow"><span class="section-index">03 /</span> THE PERSON BEHIND THE PROJECTS</span></div>
+      <div class="about-layout"><div class="about-heading reveal"><h2 id="about-title" class="section-title">Engineer<br>in progress.<br><span>Curious by default.</span></h2><div class="coordinate-label"><span aria-hidden="true">✳</span> ROOTED IN BRAZIL. BUILDING AT PURDUE.</div></div>
+        <div class="about-copy reveal"><p class="about-lead">$about</p><p>$about_second</p><div class="education-card"><span class="eyebrow">$university / EXPECTED $graduation</span><h3>B.S. $degree</h3><p>$concentration<br>$minor</p><div class="education-bottom"><span><strong>$gpa</strong> / 4.00 GPA</span><span>$honor <span aria-hidden="true">↗</span></span></div></div></div></div>
+      <div class="skills-layout reveal"><span class="eyebrow">MY TOOLKIT</span><div class="skills-grid">$skill_groups</div></div>
+    </section>
+
+    <section id="contact" class="section contact-section" aria-labelledby="contact-title"><div class="contact-orbit" aria-hidden="true"></div><div class="contact-top reveal"><span class="eyebrow"><span class="section-index">04 /</span> WHAT'S NEXT?</span><span>Robotics. Research. A good problem.</span></div><h2 id="contact-title" class="reveal">Let's build<br><a href="mailto:$email">what's next.<span aria-hidden="true">↗</span></a></h2><div class="contact-bottom reveal"><div><a class="email-link" href="mailto:$email">$email</a><button id="copy-email" data-email="$email" aria-label="Copy email address">Copy email <span aria-hidden="true">⧉</span></button><span class="copy-status" role="status" aria-live="polite"></span></div><a class="contact-social" href="$linkedin" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer class="site-footer"><a class="footer-name" href="#home">$name</a><span>BUILT WITH CURIOSITY &amp; PYTHON</span><button id="motion-toggle" type="button" aria-pressed="true"><span class="motion-icon" aria-hidden="true">Ⅱ</span><span class="motion-label">Pause motion</span></button><a href="#home" class="back-top">Back to top <span aria-hidden="true">↑</span></a></footer>
+  $project_dialogs
+</body>
+</html>
