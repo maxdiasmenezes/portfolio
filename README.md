@@ -1,4 +1,4 @@
-# Max Menezes — Robotics portfolio
+# Max Menezes - Robotics portfolio
 
 A Python-generated personal website with a midnight-blue, silver, and electric-lime palette. It includes an animated robot-arm hero, a conceptual workspace diagram, project detail dialogs, experience, education, and contact links.
 
