@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en" data-motion="off">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071326">
+  <meta name="description" content="Max Menezes — Robotics Engineering Technology at Purdue. Explore surgical robotics research, automation, and applied AI projects.">
+  <title>Max Menezes — Robotics &amp; Applied AI</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23071326'/%3E%3Cpath d='M13 45V19h7l12 16 12-16h7v26h-8V32L32 47 21 32v13z' fill='%23d6fb70'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Max Menezes — home"><span class="brand-mark" aria-hidden="true">m<span>m</span></span><span>MAX<br>MENEZES</span></a>
+    <nav class="desktop-nav" aria-label="Main navigation"><a href="#work">Selected work <span>01</span></a><a href="#experience">Experience <span>02</span></a><a href="#about">About <span>03</span></a></nav>
+    <a class="nav-contact" href="#contact">Let's connect <span aria-hidden="true">↗</span></a>
+    <button class="mobile-menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+    <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation" hidden><a href="#work">Selected work</a><a href="#experience">Experience</a><a href="#about">About</a><a href="#contact">Let's connect ↗</a></nav>
+  </header>
+  <main id="main">
+    <section id="home" class="hero" aria-labelledby="hero-title">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <div class="eyebrow hero-eyebrow"><span class="small-cross" aria-hidden="true">+</span> ENGINEERING THE NEXT POSSIBILITY</div>
+        <h1 id="hero-title">Making ideas<br><span class="move-word">move.<svg class="word-underline" viewBox="0 0 350 14" fill="none" aria-hidden="true"><path d="M2 10Q173-4 348 9" stroke="currentColor" stroke-width="3"/></svg></span></h1>
+        <p class="hero-intro">I&#x27;m Max, a Purdue student exploring the space where code meets the physical world. I build, simulate, and keep asking what comes next.</p>
+        <div class="hero-actions"><a class="button button-lime" href="#work">Explore my work <span aria-hidden="true">↗</span></a><a class="quiet-link" href="#about">A little about me <span aria-hidden="true">↘</span></a></div>
+      </div>
+      <div class="robot-stage" aria-label="Illustrative industrial robot arm with animated engineering overlays">
+        <div class="stage-orbit orbit-one" aria-hidden="true"></div><div class="stage-orbit orbit-two" aria-hidden="true"></div>
+        <div class="stage-axis axis-horizontal" aria-hidden="true"></div><div class="stage-axis axis-vertical" aria-hidden="true"></div>
+        <div class="robot-image-wrap"><img class="robot-image" src="assets/robot-arm.webp" width="1254" height="1254" alt="Silver articulated robot arm, lit in blue — a visual concept for the portfolio" fetchpriority="high"></div>
+        <div class="stage-label stage-label-top"><span class="target-symbol" aria-hidden="true">⊕</span><span>HUMAN CURIOSITY.<br>MACHINE PRECISION.</span></div>
+        <div class="stage-label stage-label-bottom"><span class="stage-dot" aria-hidden="true"></span> ROBOTICS / SYSTEMS / MOTION</div>
+        <span class="axis-label axis-x" aria-hidden="true">X</span><span class="axis-label axis-y" aria-hidden="true">Y</span>
+        <div class="scan-line" aria-hidden="true"></div>
+        <div class="stage-corner corner-tl" aria-hidden="true"></div><div class="stage-corner corner-br" aria-hidden="true"></div>
+      </div>
+      <div class="hero-bottom"><div class="school-label"><span class="mini-mark" aria-hidden="true">P</span><span>Purdue University<small>Robotics Engineering Technology</small></span></div><div class="hero-location">West Lafayette, IN<span>São Paulo → Purdue</span></div><a class="scroll-cue" href="#work" aria-label="Scroll to selected work"><span>SCROLL TO EXPLORE</span><span class="scroll-arrow" aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <div class="discipline-strip" aria-hidden="true"><div><span>ROBOTICS</span><i>✳</i><span>SIMULATION</span><i>✳</i><span>APPLIED AI</span><i>✳</i><span>HUMAN CURIOSITY</span><i>✳</i><span>ROBOTICS</span><i>✳</i><span>SIMULATION</span><i>✳</i><span>APPLIED AI</span><i>✳</i><span>HUMAN CURIOSITY</span><i>✳</i></div></div>
+
+    <section id="work" class="section work-section" aria-labelledby="work-title">
+      <div class="section-top reveal"><span class="eyebrow"><span class="section-index">01 /</span> SELECTED WORK</span><span class="section-aside">A few things I've put my curiosity into.</span></div>
+      <h2 id="work-title" class="section-title reveal">From a question.<br><span>To something real.</span></h2>
+      <article class="featured-project reveal">
+        <div class="workspace-visual">
+          <div class="workspace-top"><span>ROBOT WORKSPACE</span><span>STUDY 001</span></div>
+          <canvas id="workspace-canvas" aria-label="Illustrative animated grid of candidate base positions in a robot workspace"></canvas>
+          <div class="workspace-legend"><span><i></i> CANDIDATE BASE POSE</span><span>PYTHON / PYBULLET</span></div>
+          <p class="diagram-note">Conceptual illustration · not experimental results</p>
+        </div>
+        <div class="featured-copy"><div class="eyebrow"><span class="featured-label">FEATURED RESEARCH</span><span>2026</span></div><h3>A better position.<br>A better possibility.</h3><p>Exploring how robot-arm placement changes what&#x27;s possible in robot-assisted surgery. A Python and PyBullet simulation evaluates base positions across three surgical scenarios.</p>
+          <div class="research-stats"><div><strong>81</strong><span>candidate base poses</span></div><div><strong>3</strong><span>surgical scenarios</span></div></div>
+          <div class="tags"><span class="tag">Python</span><span class="tag">PyBullet</span><span class="tag">Inverse kinematics</span></div><button class="text-link project-open" data-project="surgical-robotics" aria-haspopup="dialog">Inside the research<span aria-hidden="true">↗</span></button>
+        </div>
+      </article>
+      <div class="project-grid"><article class="project-card reveal">
+          <div class="project-visual system-visual" aria-label="Conceptual architecture: WhatsApp, web and voice connected to a local AI system">
+          <div class="system-top"><span>WHATSAPP</span><span>WEB</span><span>VOICE</span></div>
+          <div class="system-connectors" aria-hidden="true"><i></i><i></i><i></i></div>
+          <div class="system-core"><span class="core-icon" aria-hidden="true">⌘</span><span>AI–OS<small>LOCAL INTELLIGENCE</small></span></div>
+          <span class="visual-caption">SYSTEM ARCHITECTURE / CONCEPT</span></div>
+          <div class="card-body"><div class="eyebrow"><span>Personal project / Automation</span><span>02</span></div>
+          <h3>AI-OS</h3><p>Exploring a personal assistant built around local models, Python, and everyday interfaces: WhatsApp, web, and voice.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">Local models</span><span class="tag">Automation</span></div><button class="text-link project-open" data-project="ai-os" aria-haspopup="dialog">Explore project<span aria-hidden="true">↗</span></button></div></article>
+<article class="project-card reveal">
+          <div class="project-visual modo-visual" aria-label="Modo Menezes wordmark"><div class="modo-wordmark">modo<span>menezes</span></div><span class="visual-caption">SMALL BUSINESS. NEW POSSIBILITIES.</span></div>
+          <div class="card-body"><div class="eyebrow"><span>Entrepreneurship / Applied AI</span><span>03</span></div>
+          <h3>Modo Menezes</h3><p>Turning emerging tools into useful services for local businesses, from AI-built websites to chatbot and receptionist offerings.</p>
+          <div class="tags"><span class="tag">Founder</span><span class="tag">Web development</span><span class="tag">Applied AI</span></div><button class="text-link project-open" data-project="modo-menezes" aria-haspopup="dialog">Explore project<span aria-hidden="true">↗</span></button></div></article>
+<article class="project-card reveal">
+          <div class="project-visual learning-visual" aria-label="Training workflow: learn, practice, progress"><span class="learning-title">Learn.<br>Practice.<br><em>Progress.</em></span><div class="learning-steps" aria-hidden="true"><i></i><i></i><i></i></div><span class="visual-caption">TECHNICAL LEARNING / TEAM PROJECT</span></div>
+          <div class="card-body"><div class="eyebrow"><span>Industry project / Software</span><span>04</span></div>
+          <h3>Learning, connected.</h3><p>A digital training platform for Bayer Crop Science, built with an agile team to support technical learning and track performance.</p>
+          <div class="tags"><span class="tag">JavaScript</span><span class="tag">Full stack</span><span class="tag">Agile</span></div><button class="text-link project-open" data-project="bayer-platform" aria-haspopup="dialog">Explore project<span aria-hidden="true">↗</span></button></div></article></div>
+    </section>
+
+    <section id="experience" class="section experience-section" aria-labelledby="experience-title">
+      <div class="section-top reveal"><span class="eyebrow"><span class="section-index">02 /</span> THE JOURNEY</span><span class="section-aside">Learning by building. Building by learning.</span></div>
+      <div class="experience-layout"><div class="experience-heading reveal"><h2 id="experience-title" class="section-title">Always<br>in <em>motion.</em></h2><p>Research, industry, and a venture of my own. Different settings. The same drive to figure things out.</p><a class="quiet-link" href="https://www.linkedin.com/in/max-menezes-447429328/" target="_blank" rel="noopener noreferrer">More on LinkedIn <span aria-hidden="true">↗</span></a></div><div class="timeline"><article class="experience-row reveal"><div class="experience-date">Aug 2026 — Present<span>Entrepreneurship</span></div>
+      <div class="experience-main"><h3>Modo Menezes</h3><h4>Founder</h4><p>Building practical AI and web services for local businesses.</p></div><span class="timeline-node" aria-hidden="true"></span></article>
+<article class="experience-row reveal"><div class="experience-date">May — Sep 2026<span>Research</span></div>
+      <div class="experience-main"><h3>Surgical robotics research</h3><h4>Independent researcher</h4><p>Simulation-based robot-arm placement research, mentored by Dr. Ricardo Zugaib Abdalla at LEPIC / HCFMUSP.</p></div><span class="timeline-node" aria-hidden="true"></span></article>
+<article class="experience-row reveal"><div class="experience-date">Jul 2025<span>Industry</span></div>
+      <div class="experience-main"><h3>C6 Bank</h3><h4>Finance intern · Profitability Division</h4><p>Analyzed profitability and vehicle-finance data across 120 hours of project work. Developed a model to forecast Provision for Doubtful Debt growth.</p></div><span class="timeline-node" aria-hidden="true"></span></article>
+<article class="experience-row reveal"><div class="experience-date">Feb — Apr 2025<span>Project</span></div>
+      <div class="experience-main"><h3>Bayer Crop Science / Inteli</h3><h4>Full-stack developer · Team project</h4><p>Developed a digital training platform in a 10-week agile team.</p></div><span class="timeline-node" aria-hidden="true"></span></article></div></div>
+    </section>
+
+    <section id="about" class="section about-section" aria-labelledby="about-title">
+      <div class="section-top reveal"><span class="eyebrow"><span class="section-index">03 /</span> THE PERSON BEHIND THE PROJECTS</span></div>
+      <div class="about-layout"><div class="about-heading reveal"><h2 id="about-title" class="section-title">Engineer<br>in progress.<br><span>Curious by default.</span></h2><div class="coordinate-label"><span aria-hidden="true">✳</span> ROOTED IN BRAZIL. BUILDING AT PURDUE.</div></div>
+        <div class="about-copy reveal"><p class="about-lead">I&#x27;m drawn to engineering that moves beyond the screen. My work spans surgical-robotics simulation, local AI systems, and practical software for people and businesses.</p><p>From São Paulo to Purdue, I&#x27;ve followed the same curiosity: how can a well-built system make something work better? I like turning that question into something I can test.</p><div class="education-card"><span class="eyebrow">Purdue University / EXPECTED May 2029</span><h3>B.S. Robotics Engineering Technology</h3><p>Autonomy and UXVs · Signal Processing Option (planned)<br>Electrical Engineering Technology (intended)</p><div class="education-bottom"><span><strong>4.00</strong> / 4.00 GPA</span><span>Dean&#x27;s List <span aria-hidden="true">↗</span></span></div></div></div></div>
+      <div class="skills-layout reveal"><span class="eyebrow">MY TOOLKIT</span><div class="skills-grid"><div class="skill-group"><h3>Robotics &amp; engineering</h3><div class="tags"><span class="tag">PyBullet</span><span class="tag">Inverse kinematics</span><span class="tag">3D simulation</span><span class="tag">MATLAB</span><span class="tag">AutoCAD</span></div></div>
+<div class="skill-group"><h3>Code &amp; systems</h3><div class="tags"><span class="tag">Python</span><span class="tag">C</span><span class="tag">JavaScript</span><span class="tag">SQL</span><span class="tag">Node.js</span><span class="tag">HTML / CSS</span></div></div>
+<div class="skill-group"><h3>Ways of working</h3><div class="tags"><span class="tag">Research</span><span class="tag">Agile development</span><span class="tag">Prototyping</span><span class="tag">Data analysis</span></div></div></div></div>
+    </section>
+
+    <section id="contact" class="section contact-section" aria-labelledby="contact-title"><div class="contact-orbit" aria-hidden="true"></div><div class="contact-top reveal"><span class="eyebrow"><span class="section-index">04 /</span> WHAT'S NEXT?</span><span>Robotics. Research. A good problem.</span></div><h2 id="contact-title" class="reveal">Let's build<br><a href="mailto:maxdiasmenezes@gmail.com">what's next.<span aria-hidden="true">↗</span></a></h2><div class="contact-bottom reveal"><div><a class="email-link" href="mailto:maxdiasmenezes@gmail.com">maxdiasmenezes@gmail.com</a><button id="copy-email" data-email="maxdiasmenezes@gmail.com" aria-label="Copy email address">Copy email <span aria-hidden="true">⧉</span></button><span class="copy-status" role="status" aria-live="polite"></span></div><a class="contact-social" href="https://www.linkedin.com/in/max-menezes-447429328/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer class="site-footer"><a class="footer-name" href="#home">Max Menezes</a><span>BUILT WITH CURIOSITY &amp; PYTHON</span><button id="motion-toggle" type="button" aria-pressed="true"><span class="motion-icon" aria-hidden="true">Ⅱ</span><span class="motion-label">Pause motion</span></button><a href="#home" class="back-top">Back to top <span aria-hidden="true">↑</span></a></footer>
+  <dialog class="project-dialog" id="dialog-surgical-robotics" aria-labelledby="title-surgical-robotics">
+          <div class="dialog-inner"><button class="dialog-close" aria-label="Close project details">✕</button>
+          <span class="eyebrow">Project 01 / Robotics / Research</span>
+          <h2 id="title-surgical-robotics">Surgical robotics</h2>
+          <div class="dialog-meta"><span>Independent researcher</span><span>May — Sep 2026</span></div>
+          <div class="tags"><span class="tag">Python</span><span class="tag">PyBullet</span><span class="tag">Inverse kinematics</span></div><p>Built a 3D simulation of a da Vinci Research Kit patient-side manipulator to evaluate 81 candidate base poses across three surgical scenarios.</p><p>Ranked feasible configurations using inverse kinematics, collision and clearance checks, workspace coverage, manipulability, joint margin, and robustness metrics.</p><p>Generated CSV/JSON results and figures for a manuscript submitted to LEPIC at Hospital das Clínicas, University of São Paulo Medical School, under Dr. Ricardo Zugaib Abdalla.</p><p class="project-note">Simulation research; no clinical performance claims. The workspace graphic on this page is an illustration, not a plot of experimental results.</p>
+          <a class="button button-lime" href="mailto:maxdiasmenezes@gmail.com">Ask me about this project <span aria-hidden="true">↗</span></a></div></dialog>
+<dialog class="project-dialog" id="dialog-ai-os" aria-labelledby="title-ai-os">
+          <div class="dialog-inner"><button class="dialog-close" aria-label="Close project details">✕</button>
+          <span class="eyebrow">Project 02 / Personal project / Automation</span>
+          <h2 id="title-ai-os">AI-OS</h2>
+          <div class="dialog-meta"><span>Personal project</span><span>2026</span></div>
+          <div class="tags"><span class="tag">Python</span><span class="tag">Local models</span><span class="tag">Automation</span></div><p>Developing a personal automation system with Python and Claude Code, with local models as the intended foundation.</p><p>Exploring WhatsApp, web, and voice as interfaces for interacting with the assistant.</p><p>The project brings together a hands-on interest in local AI, automation, and systems that fit into daily life.</p><p class="project-note">An ongoing personal project. The diagram shows the intended system architecture.</p>
+          <a class="button button-lime" href="mailto:maxdiasmenezes@gmail.com">Ask me about this project <span aria-hidden="true">↗</span></a></div></dialog>
+<dialog class="project-dialog" id="dialog-modo-menezes" aria-labelledby="title-modo-menezes">
+          <div class="dialog-inner"><button class="dialog-close" aria-label="Close project details">✕</button>
+          <span class="eyebrow">Project 03 / Entrepreneurship / Applied AI</span>
+          <h2 id="title-modo-menezes">Modo Menezes</h2>
+          <div class="dialog-meta"><span>Founder</span><span>Aug 2026 — Present</span></div>
+          <div class="tags"><span class="tag">Founder</span><span class="tag">Web development</span><span class="tag">Applied AI</span></div><p>Founded Modo Menezes in August 2026 to offer practical AI services to local businesses.</p><p>The service offering includes AI-built websites, chatbots, and AI receptionists.</p><p>Delivered website work for Mr. Moustache Barbearia in São Paulo, shaping the service information, business story, and WhatsApp contact flow.</p><p class="project-note">Focused on useful outcomes for small businesses.</p>
+          <a class="button button-lime" href="mailto:maxdiasmenezes@gmail.com">Ask me about this project <span aria-hidden="true">↗</span></a></div></dialog>
+<dialog class="project-dialog" id="dialog-bayer-platform" aria-labelledby="title-bayer-platform">
+          <div class="dialog-inner"><button class="dialog-close" aria-label="Close project details">✕</button>
+          <span class="eyebrow">Project 04 / Industry project / Software</span>
+          <h2 id="title-bayer-platform">Bayer training platform</h2>
+          <div class="dialog-meta"><span>Full-stack developer · Team project</span><span>Feb — Apr 2025</span></div>
+          <div class="tags"><span class="tag">JavaScript</span><span class="tag">Full stack</span><span class="tag">Agile</span></div><p>Worked on a 10-week agile team building a technical training platform for Digital Technical Promoters supporting Climate FieldView.</p><p>Developed user and administrator workflows to track individual and team performance.</p><p>Built with Node.js, Express, EJS, Tailwind CSS, PostgreSQL, and Supabase.</p><p class="project-note">Completed through project-based coursework at Inteli.</p>
+          <a class="button button-lime" href="mailto:maxdiasmenezes@gmail.com">Ask me about this project <span aria-hidden="true">↗</span></a></div></dialog>
+</body>
+</html>
